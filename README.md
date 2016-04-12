@@ -12,11 +12,13 @@ https://github.com/thejameskyle/spectacle-code-slide
 
 ### Start your own library
 
+http://ossmanifesto.org/
+
 arguably the easiest way. Open source has stages:
 
 - release
 - license
-- document
+- document http://docs-guide.readthedocs.org/en/latest/
 - test
 - publish
 - implement / evangelize
