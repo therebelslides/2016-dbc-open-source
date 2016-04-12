@@ -1,5 +1,7 @@
 # open-source-workshop
 
+https://github.com/thejameskyle/spectacle-code-slide
+
 ## What is open source
 
 ## when did it start
