@@ -36,6 +36,12 @@
 
 [code slide plugin](https://github.com/thejameskyle/spectacle-code-slide)
 
+## Contact Info
+
+name | email | slack | irc | github  
+---- | ----- | ----- | --- | ------ 
+Trent Oswald | `trentoswald``@``therebelrobot.com` | @therebelrobot (sfbrigade, cfa) | @therebelrobot (freenode) | https://github.com/therebelrobot
+
 ## Slide content
 
 ```js
