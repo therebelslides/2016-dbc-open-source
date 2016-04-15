@@ -1,49 +1,178 @@
-# open-source-workshop
+# Contributing to Open Source
+*Trent Oswald, `trentoswald``@``therebelrobot.com`, @therebelrobot*
 
-https://github.com/thejameskyle/spectacle-code-slide
+*Note: this is more useful after going through the slides, but feel free to poke around ;)*
 
-## What is open source
+## Start Your Own
 
-## when did it start
+- [ ] Release Code - Github, Gitlab, Bitbucket, Wherever
+- [ ] Public and Permissive License
+  - [choosealicense.com](http://choosealicense.com)
+  - [tldrlegal.com](http://tldrlegal.com)
+- [ ] Clear Documentation
+  - [OSS Manifesto](http://ossmanifesto.org/)
+  - [doc-squad](http://c4sf.me/docsquad)
+- [ ] Testing
+  - Unit (Tap, Tape, Ava, Mocha)
+  - End to End (Nightwatch, Browserstack, Intern.io)
+- [ ] Publish
+  - NPM
+- [ ] Evangelize - Reddit, Github, HackerNews
 
-## what makes something open source?
+## Contribute to Others
 
-## how can I start?
+- [ ] [up-for-grabs.net](http://up-for-grabs.net)
+- [ ] Read `CONTRIBUTING` doc
+- [ ] See where there are needs
+  - Docs
+  - Tests
+  - Triage & replicate
+  - Add fixes
+  - Add features
 
-### Start your own library
-
-http://ossmanifesto.org/
-
-arguably the easiest way. Open source has stages:
-
-- release
-- license
-- document http://docs-guide.readthedocs.org/en/latest/
-- test
-- publish
-- implement / evangelize
-
-ANYTHING along that spectrum counts. Don't be afraid to release without docs or tests!
-
-If you have a need, write something modular for it, and release it so others can benefit/help
-
-### Contribute to another library
-
-forces you to interact
+## Additional Readings
 
 [Branching model](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) vs [Forking model](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
 
-CONTRIBUTING.md
+[code slide plugin](https://github.com/thejameskyle/spectacle-code-slide)
 
-- look for projects needing assistance
-  - Github Issues Participation
-    - ask for license (if not present)
-    - report bugs
-    - suggest feature additions
-  - Github Forking Contributions
-    - assist in documentation
-    - assist in writing tests
-    - take a crack at an existing bug
-    - take a crack at a proposed feature
-  - up-for-grabs.net
-  - find a project that speaks to you
+## Slide content
+
+```js
+function Contributing_to (openSource) {
+  // Trent Oswald
+  //    @therebelrobot
+  //    therebelrobot.com
+  // Dev Bootcamp, April 16th 2016
+
+  what_is(openSource);
+
+  (openSource !== freeSoftware);
+
+  openSource = "source code available to the general public with relaxed or non-existent copyright restrictions";
+
+  openSource = [
+    "Rich and Thriving Community",
+    "Shared Values",
+    "Open Governance",
+    "Ability and Freedom to Iterate",
+    "Passion for Innovation"
+  ]
+
+  openSource << FreeSoftwareFoundation(1997)
+
+  openSourceInitiative(1998)
+
+  Netscape() // Now Mozilla Firefox
+  Debian()
+  LinuxKernel()
+
+  openSource = [
+    "Media Content", // Wikimedia Foundation
+    "Hardware", // Raspberry Pi, Arduino
+    "Beverages",// Open Source Cola, Brewtopia
+    "Firearms", // 3D Printed firearms
+    "Medicine", // Tropical Disease Initiative
+    "Religion" // Open Siddur Project, Open Source Yoga Unity
+  ]
+
+  var whatMakesOpenSource = function () {
+    releaseOfSourceCode()
+            // Github, Gitlab, Bitbucket, etc
+    publicAndPermissiveLicense()
+            // MIT, ISC, GPLv3, Apache, etc
+    clearDocumentation()
+            // README, CONTRIBUTING, CHANGELOG
+  }
+
+  React // Facebook
+  RubyOnRails // David Hansson
+  Linux // The Linux Foundation
+  Android // Google
+  .NETframework // C# - Microsoft
+
+  var howDoIOpenSource = function () {
+    methods = [
+      "Start Your Own",
+      "Contribute to Others"
+    ]
+
+    if(method === "Start Your Own"){
+      releaseOfSourceCode()
+      publicAndPermissiveLicense()
+          // choosealicense.com, tldrlegal.com
+      clearDocumentation()
+         // ossmanifesto.org, c4sf.me/docsquad
+
+      testing() // Tap, Mocha, Nightwatch
+      publishing() // NPM, Gems, LuaRocks
+      evangelizing()
+           // Github, HackerNews, Reddit, IRC
+
+      if(broken) {
+        buildFix()
+        release
+      }
+
+      url("http://ossmanifesto.org")
+      values = [
+        "Respect",
+        "Collaboration",
+        "Healthy Debates",
+        "Basic Documentation",
+        "Consistent Versioning of releases"
+      ]
+
+    }
+    if(method === "Contribute to Others") {
+      humanInteraction()
+
+      remember(`They\'re coders,
+                 just like you`)
+      remember(`Nobody is born a coder.
+                 We all start somewhere.`)
+      remember(`If you don\'t like a community,
+                 find (or build) a new one`)
+
+      contributionModels = [
+        "Branching",
+           // internal parallel code bases
+        "Forking"
+           // external parallel code base
+      ]
+      openSourceContributions === "Forking"
+
+      CONTRIBUTING.md()
+        // How to file an issue
+        // What to include
+        // How to contribute code
+
+      GithubIssues = [
+        "Ask for LICENSE (if none provided)",
+        "Report found bugs",
+        "Try to replicate logged bugs",
+        "Suggest feature additions"
+      ]
+      remember(`Language / culture /
+                   personality barriers`)
+      remember(`Response times vary
+                   dramatically`)
+
+      GithubForking = [
+        "Assist in documentation improvement",
+        "Assist in writing tests",
+        "Try fixing a currently reported bug",
+        "Try fixing a bug you found",
+        "Try adding a proposed feature",
+        "Try adding a feature you would like"
+        // WARNING: It is best practice
+        //          to check in with
+        //          a core contributor before
+        //          adding features.
+      ]
+
+      url("http://up-for-grabs.net")
+    }
+  }
+}
+```
