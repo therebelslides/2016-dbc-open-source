@@ -1,5 +1,5 @@
 # Contributing to Open Source
-*Trent Oswald, `trentoswald``@``therebelrobot.com`, @therebelrobot*
+*Trent Oswald, `trentoswald``@``therebelrobot.com`,*
 
 *Note: this is more useful after going through the slides, but feel free to poke around ;)*
 
